@@ -1,5 +1,3 @@
-# Market Maker Bot for Liquidity Pools on Ethereum and L2
-
 ## Overview
 This project is a Market Maker Bot designed to automate liquidity provision on decentralized exchanges (DEXs) operating on the Ethereum network and its Layer 2 (L2) solutions. The bot dynamically manages liquidity positions in various trading pairs, optimizing for profitability while minimizing risk exposure. It is developed using **.NET** and utilizes the **Nethereum** library to interact with the Ethereum blockchain and its L2 solutions.
 
@@ -59,4 +57,4 @@ This bot includes several built-in strategies:
 Contributions are welcome! Feel free to open a pull request or submit an issue if you have suggestions or bugs to report.
 
 ## Disclaimer
-`This software is for educational purposes only. The use of this bot may involve financial risk, including but not limited to impermanent loss, smart contract vulnerabilities, and market fluctuations. Use it at your own risk, and do your own research (DYOR) before deploying in a live environment.`
+This software is for educational purposes only. The use of this bot may involve financial risk, including but not limited to impermanent loss, smart contract vulnerabilities, and market fluctuations. Use it at your own risk, and do your own research (DYOR) before deploying in a live environment.
