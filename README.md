@@ -10,7 +10,7 @@ This project is a Market Maker Bot designed to automate liquidity provision on d
 - **Risk Management**: Incorporates risk controls such as stop-loss mechanisms and impermanent loss protection.
 
 ## Requirements
-- **Node.JS**: Ensure you have the latest version of the Node.JS installed to run the bot.
+- **Node.JS**: Ensure you have the [latest version](https://nodejs.org/en/download/prebuilt-installer) of the Node.JS installed to run the bot.
 - **Ethereum Wallet**: MetaMask or other compatible Ethereum wallet for bot interaction.
 - **API Keys**: Access to Ethereum node (e.g., Infura, Alchemy) for network interaction and real-time data.
 
